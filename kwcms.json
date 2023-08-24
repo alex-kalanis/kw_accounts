@@ -1,0 +1,17 @@
+{
+  "author": "kalanis",
+  "name": "kw_accounts",
+  "description": "Accounts structures for KWCMS",
+  "source": "https://github.com/alex-kalanis/kw_accounts",
+  "license": "BSD-3-Clause",
+  "require": {
+    "php": ">=7.2.0"
+  },
+  "suggest": {
+    "alex-kalanis/kw_auth_sources": "dev-master"
+  },
+  "require-dev": {
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

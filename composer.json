@@ -1,0 +1,31 @@
+{
+    "name": "alex-kalanis/kw_accounts",
+    "description": "Accounts structures for KWCMS",
+    "keywords": [
+        "account",
+        "data"
+    ],
+    "license": "BSD-3-Clause",
+    "type": "library",
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.0",
+        "phpstan/phpstan": "^1.0",
+        "phpstan/phpstan-phpunit": "^1.0",
+        "phpunit/phpunit": ">=7.2 <=9"
+    },
+    "suggest": {
+        "alex-kalanis/kw_auth_sources": "Authentication sources for KWCMS"
+    },
+    "autoload": {
+        "psr-4": {
+            "kalanis\\kw_accounts\\": "php-src/"
+        }
+    },
+    "scripts": {
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
