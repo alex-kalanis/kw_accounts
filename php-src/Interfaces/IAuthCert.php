@@ -4,7 +4,6 @@ namespace kalanis\kw_accounts\Interfaces;
 
 
 use kalanis\kw_accounts\AccountsException;
-use kalanis\kw_locks\LockException;
 
 
 /**
@@ -20,7 +19,6 @@ interface IAuthCert extends IAuth
      * @param string|null $certKey
      * @param string|null $certSalt
      * @throws AccountsException
-     * @throws LockException
      * @return bool
      */
     public function updateCertKeys(string $userName, ?string $certKey, ?string $certSalt): bool;
@@ -29,7 +27,6 @@ interface IAuthCert extends IAuth
      * Cet cert data from storage
      * @param string $userName
      * @throws AccountsException
-     * @throws LockException
      * @return IUserCert|null
      */
     public function getCertData(string $userName): ?IUserCert;
