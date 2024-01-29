@@ -21,7 +21,7 @@ ignored and another can be available under "extra".
 ```
 {
     "require": {
-        "alex-kalanis/kw_accounts": "1.0"
+        "alex-kalanis/kw_accounts": "2.0"
     }
 }
 ```
@@ -40,4 +40,4 @@ familiar with composer)
 
 ## Caveats
 
-It contains only basics, it needs something to fill and use.
+It contains only basics, it needs something external to fill and use.
