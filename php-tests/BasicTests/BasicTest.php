@@ -69,9 +69,9 @@ class BasicTest extends CommonTestClass
     {
         $cert = new Data\FileCertUser();
         $this->assertEmpty($cert->getPubKey());
-        $this->assertEmpty($cert->getPubSalt());
-        $cert->addCertInfo('asdfghjkl', 'once_none');
+        $this->assertEmpty($cert->getSalt());
+        $cert->updateCertInfo('asdfghjkl', 'once_none');
         $this->assertEquals('asdfghjkl', $cert->getPubKey());
-        $this->assertEquals('once_none', $cert->getPubSalt());
+        $this->assertEquals('once_none', $cert->getSalt());
     }
 }
