@@ -1,9 +1,9 @@
 # kw_accounts
 
-[![Build Status](https://app.travis-ci.com/alex-kalanis/kw_accounts.svg?branch=master)](https://app.travis-ci.com/github/alex-kalanis/kw_accounts)
+![Build Status](https://github.com/alex-kalanis/kw_accounts/actions/workflows/code_checks.yml/badge.svg)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/alex-kalanis/kw_accounts/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/alex-kalanis/kw_accounts/?branch=master)
 [![Latest Stable Version](https://poser.pugx.org/alex-kalanis/kw_accounts/v/stable.svg?v=1)](https://packagist.org/packages/alex-kalanis/kw_accounts)
-[![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%207.3-8892BF.svg)](https://php.net/)
+[![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%207.4-8892BF.svg)](https://php.net/)
 [![Downloads](https://img.shields.io/packagist/dt/alex-kalanis/kw_accounts.svg?v1)](https://packagist.org/packages/alex-kalanis/kw_accounts)
 [![License](https://poser.pugx.org/alex-kalanis/kw_accounts/license.svg?v=1)](https://packagist.org/packages/alex-kalanis/kw_accounts)
 [![Code Coverage](https://scrutinizer-ci.com/g/alex-kalanis/kw_accounts/badges/coverage.png?b=master&v=1)](https://scrutinizer-ci.com/g/alex-kalanis/kw_accounts/?branch=master)
@@ -18,12 +18,8 @@ ignored and another can be available under "extra".
 
 ## PHP Installation
 
-```
-{
-    "require": {
-        "alex-kalanis/kw_accounts": "2.0"
-    }
-}
+```bash
+composer.phar require alex-kalanis/kw_accounts
 ```
 
 (Refer to [Composer Documentation](https://github.com/composer/composer/blob/master/doc/00-intro.md#introduction) if you are not
